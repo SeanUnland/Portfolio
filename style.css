@@ -1,0 +1,130 @@
+body {
+  font-family: "Amatic SC", cursive;
+  background-color: #0c1618;
+  color: #feefdd;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #e6aa68;
+}
+
+.navbar-brand {
+  margin-right: 19rem;
+}
+
+.section1 {
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+  grid-template-rows: 1fr, 1fr;
+  text-align: center;
+  margin: 0px, 0px, 20px, 0px;
+  background-color: #0c1618;
+  padding: 30px;
+  background-image: url("https://i.imgur.com/xwa1NJF.jpg");
+  background-position-y: center;
+  background-size: coe;
+  background-size: 500px;
+}
+
+.section2 {
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+  grid-template-rows: 1fr, 1fr 1fr, 1fr;
+  max-width: 400px;
+  margin: 20px;
+  border-top-style: double;
+}
+
+.section2 .project {
+  text-align: center;
+  margin: 30px;
+  font-size: 30px;
+}
+
+h6 {
+  list-style-type: none;
+  text-align: center;
+  display: inline;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.section3 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin: 20px, 0px, 20px, 0px;
+  padding: 30px;
+  border-top-style: double;
+}
+
+.card-body {
+  background-color: #4f4f59;
+}
+
+.card-text:last-child {
+  text-align: center;
+}
+
+.section4 {
+  padding: 30px;
+  border-top-style: double;
+}
+
+.text-boxes {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+  grid-template-rows: 1fr, 1fr, 1fr 1fr;
+  grid-template-areas:
+    ". name name ."
+    ". email email ."
+    "message message message message"
+    ". submit submit .";
+}
+
+.contact {
+  text-align: center;
+}
+
+.name {
+  grid-area: name;
+}
+
+.email {
+  grid-area: email;
+}
+
+.message {
+  grid-area: message;
+}
+
+.submit {
+  grid-area: submit;
+}
+
+footer {
+  border-top-style: double;
+}
+.fa {
+  font-size: 13px;
+  width: 20px;
+  height: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 4px;
+  position: absolute;
+  right: 20px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}

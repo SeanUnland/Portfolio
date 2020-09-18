@@ -1,0 +1,49 @@
+@media screen and (max-width: 425px) {
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-brand {
+    margin-right: 40rem;
+  }
+
+  .section2 {
+    max-width: 900px;
+  }
+  li {
+    text-align: center;
+  }
+  h6 {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar-brand {
+    margin-right: 50rem;
+  }
+  .section2 {
+    max-width: 980px;
+  }
+
+  .section2 .project {
+    font-size: 50px;
+  }
+
+  #carousel {
+    max-width: 550px;
+    left: 250px;
+  }
+
+  h6 {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .section4 {
+    margin: 50px;
+  }
+
+  .card-text {
+    font-size: 20px;
+  }
+}
