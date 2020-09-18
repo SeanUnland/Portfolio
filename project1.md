@@ -7,8 +7,8 @@
 | Day 1 | Project Description | Complete   |
 | Day 1 | Wireframes/ Matrix  | Complete   |
 | Day 3 | HTML/CSS/JavaScript | Complete   |
-| Day 4 | MVP/ Debugging      | Incomplete |
-| Day 5 | Post MVP/ Tweaks    | Incomplete |
+| Day 4 | MVP/ Debugging      | Complete |
+| Day 5 | Post MVP/ Tweaks    | Complete |
 | Day 6 | Present             | Incomplete |
 
 ## Project Description
